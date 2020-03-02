@@ -1,4 +1,3 @@
-//selection boxes and adding to graph breaks detection
 var weight = 0.0;
 var cpRE = '0';
 var cp = '0';
@@ -90,8 +89,6 @@ function setupLapRE() {
                 $(this).append($('<td>', {'class' : 'LapDisplayTable__Cell-t3tg80-4 lpcVYV lap' + lapCnt.toString() + 'CPValueRE', 'text' : ''}));
             }
         });
-        //if extension setting for RE is 0 then find the CP value in the current run
-
         lapCnt = 0;
         //loop through all laps to find power, distance, and time and update RE/CP values
         $('.LapDisplayTable__Table-t3tg80-1.dVeZVW > tbody > tr').each(function() {
