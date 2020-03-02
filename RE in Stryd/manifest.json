@@ -1,14 +1,12 @@
   {
-"update_url": "https://clients2.google.com/service/update2/crx",
-
     "name": "RE in Stryd",
-    "version": "1.0",
+    "version": "1.1",
     "icons": {
       "16": "images/icon16.png",
       "48": "images/icon48.png",
       "128": "images/icon128.png"
     },
-    "description": "Adds RE to Stryd Power Center",
+    "description": "Adds RE and CP to Stryd Power Center",
     "permissions": ["declarativeContent", "storage"],
     "content_scripts": [{
       "matches": ["https://www.stryd.com/powercenter*"],
